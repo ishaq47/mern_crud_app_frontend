@@ -90,7 +90,7 @@ function UpdateUser() {
             name="password"
             value={inputUser.password}
             onChange={handleChange}
-            className="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-3 py-2 border rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             placeholder="Enter your password"
             required
           />
